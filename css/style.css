@@ -7,7 +7,34 @@
     --nav-color: #7D7D7D;
 }
 
-/*  Використання змінної​​ */
-nav a{
+body{
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--dark-gray);
+}
+
+.navigation-link{
+    color: var(--nav-color);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navigation-link__active{
     color: var(--accent-color);
+}
+.navigation-link:hover{
+    color: var(--accent-color);
+}
+.post-subtitle {
+    font-family: "Ubuntu", serif;
+    font-weight: 300;
+    color: var(--light-gray);
+    font-size: 14px;
+}
+.post-title {
+    font-weight: 400;
+    font-size: 30px;
+}
+.post-text {
+    line-height: 1.35;
 }
