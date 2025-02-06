@@ -36,10 +36,13 @@ body{
     font-weight: 300;
     color: var(--light-gray);
     font-size: 14px;
+    margin-top: 62px;
+    margin-bottom: 32px;
 }
 .post-title {
     font-weight: 400;
     font-size: 30px;
+    margin-bottom: 40px;
 }
 .post-text {
     line-height: 1.35;
@@ -69,4 +72,16 @@ body{
 }
 .posts{
     margin-bottom: 66px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+
+.posts-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
